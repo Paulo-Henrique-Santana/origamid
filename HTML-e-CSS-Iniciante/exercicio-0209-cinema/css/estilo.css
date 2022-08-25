@@ -1,0 +1,23 @@
+body {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+a {
+  text-decoration: underline;
+}
+
+h2 a {
+  color: seagreen;
+}
+
+p {
+  font-size: 20px;
+}
+
+p.filme-hoje {
+  color: darkred;
+}
+
+p.filme-amanha {
+  color: darkblue;
+}
