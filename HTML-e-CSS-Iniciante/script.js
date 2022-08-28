@@ -1,18 +1,8 @@
-const larguraTela = window.innerWidth;
+const elemento = document.querySelector("p");
+const texto = elemento.innerText;
 
+console.log(texto)
 
-function coordenadaMouse(event) {
-  const coordenadas = {
-    x: event.x,
-    y: event.y
-  }
-  console.log(coordenadas)
+if(texto.toUpperCase === 'html') {
+  console.log("teste")
 }
-
-// window.addEventListener('mousemove', coordenadaMouse)
-
-function scroll() {
-  console.log(window.scrollY)
-}
-
-window.addEventListener('scroll', scroll)
