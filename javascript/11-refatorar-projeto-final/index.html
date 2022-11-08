@@ -7,8 +7,6 @@
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Mono:wght@400;700&display=swap" rel="stylesheet">
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
   <link href="https://fonts.googleapis.com/css2?family=Playfair+Display+SC&display=swap" rel="stylesheet">
   <link rel="stylesheet" href="./css/style.css">
   <title>Animais Fantásticos</title>
@@ -33,7 +31,7 @@
         </li>
         <li><a href="#faq">Faq</a></li>
         <li><a href="#contato">Contato</a></li>
-        <li><a data-modal="abrir" href="login.html">Login →</a></li>
+        <li><a data-modal="abrir" href="login.html">Login <span class="arrow-black"></span></a></li>
       </ul>
     </nav>
     <section class="grid-section animais" data-anime="scroll" id="animais">
@@ -111,6 +109,27 @@
       </dl>
     </section>
 
+    <section class="grid-section galeria" data-anime="scroll">
+      <ul class="custom-controls">
+        <li><img src="./img/slide/foto1-thumb.jpg" alt=""></li>
+        <li><img src="./img/slide/foto2-thumb.jpg" alt=""></li>
+        <li><img src="./img/slide/foto3-thumb.jpg" alt=""></li>
+        <li><img src="./img/slide/foto4-thumb.jpg" alt=""></li>
+        <li><img src="./img/slide/foto5-thumb.jpg" alt=""></li>
+        <li><img src="./img/slide/foto6-thumb.jpg" alt=""></li>
+      </ul>
+      <div class="slide-wrapper">
+        <ul class="slide">
+          <li><img src="img/slide/foto1.jpg" alt=""></li>
+          <li><img src="img/slide/foto2.jpg" alt=""></li>
+          <li><img src="img/slide/foto3.jpg" alt=""></li>
+          <li><img src="img/slide/foto4.jpg" alt=""></li>
+          <li><img src="img/slide/foto5.jpg" alt=""></li>
+          <li><img src="img/slide/foto6.jpg" alt=""></li>
+        </ul>
+      </div>
+    </section>
+
     <section class="grid-section numeros" data-anime="scroll">
       <h1 class="titulo">Números</h1>
       <div class="numeros-grid">
@@ -139,7 +158,7 @@
 
   <section class="modal-container" data-modal="container">
     <div class="modal">
-      <button data-modal="fechar" class="fechar">X</button>
+      <button data-modal="fechar" class="fechar"></button>
       <form action="">
         <label for="email">Email</label>
         <input type="text" for="email" id="email">
