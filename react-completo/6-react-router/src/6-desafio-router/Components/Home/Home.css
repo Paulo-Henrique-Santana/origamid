@@ -1,0 +1,22 @@
+.container-products {
+  margin: 0 auto;
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 50px;
+}
+
+.container-products .product {
+  max-width: 250px;
+}
+
+.product img {
+  width: 100%;
+  border-radius: 10px;
+}
+
+.product .name {
+  margin-top: 10px;
+  font-size: 1.8rem;
+  font-weight: bold;
+}

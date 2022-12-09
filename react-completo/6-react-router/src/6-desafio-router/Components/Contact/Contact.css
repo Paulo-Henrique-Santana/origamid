@@ -1,0 +1,31 @@
+.container-contact {
+  display: flex;
+  gap: 40px;
+}
+
+.container-contact img {
+  border-radius: 10px;
+  max-width: 350px;
+}
+
+.description h1 {
+  margin: 20px 0;
+}
+
+.description .info {  
+  margin-bottom: 15px;
+  margin-left: 35px;
+  font-size: 1.3rem;
+  font-family: Arial, Helvetica, sans-serif;
+  position: relative;
+}
+
+.description .info::before {
+  content: "";
+  width: 23px;
+  height: 3px;
+  background-color: #ececec;
+  position: absolute;
+  left: -35px;
+  bottom: 5px;
+}

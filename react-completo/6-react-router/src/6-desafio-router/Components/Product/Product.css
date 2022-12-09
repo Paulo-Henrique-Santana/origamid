@@ -1,0 +1,51 @@
+.animeLeft {
+  display: flex;
+  margin: 0 auto;
+  max-width: 850px;
+}
+
+.container-product .images {
+  width: min-content;
+}
+
+.container-product img {
+  margin-bottom: 40px;
+  border-radius: 10px;
+  max-width: 350px;
+}
+
+.container-product .details {
+  padding-top: 20px;
+  padding-left: 35px;
+  max-width: 330px;
+}
+
+.container-product .details .price {
+  display: inline-block;
+  margin: 10px 0;
+  border-radius: 5px;
+  padding: 7.5px;
+  background-color: #8fff5a;
+  color: #098300;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container-product .details .description {
+  font-size: 1.2rem;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.container-product .loader {
+  animation: is-rotating 1s infinite;
+  border: 10px solid #e5e5e5;
+  border-radius: 50%;
+  border-top-color: transparent;
+  height: 50px;
+  width: 50px;
+}
+
+@keyframes is-rotating {
+  to {
+    transform: rotate(1turn);
+  }
+}
