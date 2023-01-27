@@ -1,0 +1,35 @@
+body {
+  font-size: 1.25rem;
+  font-family: sans-serif;
+  margin: 2rem;
+}
+
+.title {
+  border-top: 6px solid #f8f8ff;
+  padding-top: 15px;
+  padding-bottom: 5px;
+  font-size: 1.9rem;
+}
+
+#total {
+  border-bottom: 3px solid #f8f8ff;
+  padding-bottom: 20px;
+}
+
+#payment-methods {
+  border-bottom: 3px solid #f8f8ff;
+}
+
+#transactions-table {
+  text-align: left;
+  border-collapse: collapse;
+}
+
+#transactions-table td,
+#transactions-table th {
+  padding: 10px 25px 10px 10px;
+}
+
+#transactions-table tbody tr:nth-child(odd) {
+  background-color: #f8f8ff;
+}
