@@ -1,0 +1,153 @@
+.rede-facebook {
+  background: url("img/facebook.png");
+}
+
+.rede-twitter {
+  background: url("img/twitter.png");
+}
+
+.rede-snapschat {
+  background: url("img/snapschat.png");
+}
+
+.rede-instagram {
+  background: url("img/instagram.png");
+}
+
+.type-1 {
+  font-size: 16px;
+}
+
+.type-2 {
+  font-size: 32px;
+}
+
+.type-3 {
+  font-size: 48px;
+}
+
+.type-4 {
+  font-size: 64px;
+}
+
+.type-5 {
+  font-size: 80px;
+}
+
+.type-6 {
+  font-size: 96px;
+}
+
+.porcento-1 {
+  width: 6.25%px;
+}
+
+.porcento-2 {
+  width: 12.5%px;
+}
+
+.porcento-3 {
+  width: 18.75%px;
+}
+
+.porcento-4 {
+  width: 25%px;
+}
+
+.porcento-5 {
+  width: 31.25%px;
+}
+
+.porcento-6 {
+  width: 37.5%px;
+}
+
+.porcento-7 {
+  width: 43.75%px;
+}
+
+.porcento-8 {
+  width: 50%px;
+}
+
+.porcento-9 {
+  width: 56.25%px;
+}
+
+.porcento-10 {
+  width: 62.5%px;
+}
+
+.porcento-11 {
+  width: 68.75%px;
+}
+
+.porcento-12 {
+  width: 75%px;
+}
+
+.porcento-13 {
+  width: 81.25%px;
+}
+
+.porcento-14 {
+  width: 87.5%px;
+}
+
+.porcento-15 {
+  width: 93.75%px;
+}
+
+.porcento-16 {
+  width: 100%px;
+}
+
+.grid-1 {
+  width: 44px;
+}
+
+.grid-2 {
+  width: 108px;
+}
+
+.grid-3 {
+  width: 172px;
+}
+
+.grid-4 {
+  width: 236px;
+}
+
+.grid-5 {
+  width: 300px;
+}
+
+.grid-6 {
+  width: 364px;
+}
+
+.grid-7 {
+  width: 428px;
+}
+
+.grid-8 {
+  width: 492px;
+}
+
+.grid-9 {
+  width: 556px;
+}
+
+.grid-10 {
+  width: 620px;
+}
+
+.grid-11 {
+  width: 684px;
+}
+
+.grid-12 {
+  width: 748px;
+}
+
+/*# sourceMappingURL=style.css.map */
