@@ -111,7 +111,7 @@ section {
     border-radius: 4px;
     text-align: center;
     background: $cor-primaria;
-    color: white;
+    color: $white;
     text-decoration: none;
     text-transform: uppercase;
     font-family: $font-primaria;
@@ -128,7 +128,7 @@ ul {
       padding: 20px;
       text-decoration: none;
       background: blue;
-      color: white;
+      color: $white;
       &:hover,
       &.active {
         background: pink;
